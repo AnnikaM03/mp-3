@@ -1,4 +1,3 @@
-import React from "react";
 import useTitle from "./hooks/useTitle";
 
 import {
@@ -8,6 +7,7 @@ import {
 } from "./Activities";
 import { StyledUl, StyledLi } from "./Certifications";
 import {StyledDiv} from "./Education";
+
 
 export default function Skills() {
     useTitle("Skills | Resume");
